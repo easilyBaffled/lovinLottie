@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#app {
+    height: 90vh;
+    width: 90vh;
+    resize: both;
+    overflow: hidden;
+}

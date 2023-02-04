@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#app {
+    height: 500vh;
+    width: 90vh;
+    resize: both;
+    overflow: hidden;
+}
+
+svg {
+    background: transparent;
+    position: fixed;
+}
+
+svg g g:last-child
+{
+    pointer-events: none;
+}
