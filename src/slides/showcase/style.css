@@ -1,0 +1,18 @@
+svg:not(.logo) {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#disney {
+  transform: scale(2);
+}
+
+#disney svg * {
+  fill: black;
+  stroke: black;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
